@@ -22,10 +22,12 @@ body{
     position: sticky;
     top: 0;
     display: flex;
+    flex-direction: row;
 }
 
 .topnav a {
     float: left;
+    display: flex;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
