@@ -9,14 +9,7 @@ body{
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.3;
-}
 
-body header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-body form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +22,9 @@ body form{
     position: sticky;
     top: 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    flex-direction: unset;
+    align-items: unset;
 }
 
 .topnav a {
