@@ -45,7 +45,7 @@ body{
   
 .contact-form-header {
     text-align: center;
-    background-color: #5D6063;
+    background-color: #F6F7F8;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
 
@@ -60,7 +60,7 @@ body{
 }
 
 .contact-form {
-    background-color: #5D6063;
+    background-color: #F6F7F8;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
 
@@ -153,7 +153,7 @@ body{
     }
     .form-row {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: flex-start; /* To avoid stretching */
         margin-bottom: 20px;
     }
     .form-row input[type='text'],
