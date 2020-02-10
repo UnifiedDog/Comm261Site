@@ -50,10 +50,6 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-main div {
-    grid-column-gap: 10%;
-}
-
 img {
     max-width: 100%;
 }
@@ -72,7 +68,7 @@ figure {
     margin: 40px 10%;
 }
 
-#videoContainer {
+.videoContainer {
     padding-bottom:56.25%; 
     position:relative; 
     padding: top;
@@ -80,7 +76,7 @@ figure {
     height: 0;
 }
 
-#iframeTag {
+.videoContainer iframe {
     position:absolute; 
     top:0; 
     left: 0;
