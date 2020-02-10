@@ -24,6 +24,7 @@ html {
     display: flex;
     align-items: center;
     width: 100%;
+    z-index: 1;
 }
 
 .topnav a {
