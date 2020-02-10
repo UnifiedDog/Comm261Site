@@ -57,3 +57,13 @@ img {
 figure {
     padding: 50px;
 }
+
+.pictures-body {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    width: 80%;
+    padding: 50px;
+    margin: 40px 10%;
+}
