@@ -71,17 +71,19 @@ figure {
 #videoContainer {
     padding-bottom:56.25%; 
     position:relative; 
-    display:block; 
+    padding: top;
     width: 100%;
+    height: 0;
 }
 
 #iframeTag {
     position:absolute; 
     top:0; 
     left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #videoTag {
     width:100%;
-    height: auto;
 }
