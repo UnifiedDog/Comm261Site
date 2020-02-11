@@ -48,7 +48,6 @@ html {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 img {
@@ -70,10 +69,9 @@ figure {
 }
 
 .videoContainer {
-    padding-bottom:56.25%; 
-    position:relative; 
-    padding: top;
-    width: 100%;
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
     height: 0;
 }
 
@@ -85,7 +83,22 @@ figure {
     height: 100%;
 }
 
-#videoTag {
+#videoContainer {
     width:100%;
+    padding-top: 10px;
     height: auto;
+}
+
+@media(min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
 }
