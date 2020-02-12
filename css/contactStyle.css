@@ -49,7 +49,8 @@ html {
     background-color: rgb(177, 43, 43);
     color: white;
 }
-  
+
+/* Form Junk */
 .contact-form-header {
     text-align: center;
     background-color: #F6F7F8;
@@ -147,6 +148,7 @@ html {
     background-color: #407FC7;
 }
 
+/* Mobile Considerations */
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
